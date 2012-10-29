@@ -22,11 +22,11 @@ var config = {
 , port: process.env.PORT || 5000
 /* TODO: Define a defaultAdapter. You can use postgresdb, memory, mongo or riak. 
 , model: {
-    defaultAdapter: 'mongo'
+    defaultAdapter: 'postgresdb'
 	}
 , db: {
-    mongo: {
-      dbname: 'local'
+    postgresdb: {
+      dbname: 'taste_the_arts'
     }
   }
  */

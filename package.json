@@ -2,7 +2,8 @@
   "name": "taste-the-arts",
   "version": "0.1.0",
   "dependencies": {
-    "geddy": "0.5.x"
+    "geddy": "0.5.x",
+    "pg": "~0.8.6"
   },
   "engines": {
     "node": "0.8.x",
