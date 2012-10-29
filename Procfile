@@ -1,4 +1,4 @@
-//web: node node_modules/geddy/bin/cli.js
+web: node node_modules/geddy/bin/cli.js
 var geddy = require('geddy');
 
 geddy.startCluster({
