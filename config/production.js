@@ -19,7 +19,7 @@
 var config = {
   detailedErrors: false
 , hostname: null
-, port: 4000
+, port: process.env.PORT || 5000;
 /* TODO: Define a defaultAdapter. You can use postgresdb, memory, mongo or riak. 
 , model: {
     defaultAdapter: 'mongo'

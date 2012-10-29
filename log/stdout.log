@@ -36,3 +36,5 @@
 [Sat, 27 Oct 2012 16:58:40 GMT] INFO Server worker running in development on port 4000 with a PID of: 3770
 [Sat, 27 Oct 2012 16:58:40 GMT] DEBUG LOGGING STARTED ============================================
 [Sat, 27 Oct 2012 16:58:40 GMT] DEBUG ============================================================
+[Mon, 29 Oct 2012 12:41:21 GMT] INFO Code changed, killing 3770, cycling ...
+[Mon, 29 Oct 2012 12:41:21 GMT] INFO Creating 1 worker process.
