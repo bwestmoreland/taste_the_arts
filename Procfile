@@ -1,6 +1,2 @@
-web: node node_modules/geddy/bin/cli.js
-var geddy = require('geddy');
+web: geddy -e production
 
-geddy.startCluster({
-  environment: 'production'
-});

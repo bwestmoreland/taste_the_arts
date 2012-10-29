@@ -1,9 +1,9 @@
-[Sat, 27 Oct 2012 16:58:40 GMT] INFO Server starting with config: {
-  "environment": "development",
-  "workers": 1,
-  "port": 4000,
-  "debug": true,
-  "rotateWorkers": false,
+[Mon, 29 Oct 2012 15:17:22 GMT] INFO Server starting with config: {
+  "environment": "production",
+  "workers": 2,
+  "port": "5000",
+  "debug": false,
+  "rotateWorkers": true,
   "rotationWindow": 7200000,
   "rotationTimeout": 300000,
   "logDir": "/Users/bwestmoreland/Desktop/taste_the_arts/log",
@@ -12,7 +12,7 @@
   "heartbeatWindow": 20000,
   "staticFilePath": "/Users/bwestmoreland/Desktop/taste_the_arts/public",
   "sessions": {
-    "store": "memory",
+    "store": "cookie",
     "key": "sid",
     "expiry": 1209600
   },
@@ -27,14 +27,9 @@
   "spdy": null,
   "ssl": null,
   "hostname": null,
-  "detailedErrors": true,
-  "model": {
-    "defaultAdapter": "memory"
-  }
+  "secret": "iStixUGcO8kwwBr8rGfCZVwH9xveWdJ3K9d6CBmiQ7jIIEj5jWd8oNK9uVIxol8ireRXWOAlksTyg3zuG1Qn3yVK4noS8G3g9u5yJZlXbCv6wowgkNo6n1IgORlTNEmz",
+  "detailedErrors": false
 }
-[Sat, 27 Oct 2012 16:58:40 GMT] INFO Creating 1 worker process.
-[Sat, 27 Oct 2012 16:58:40 GMT] INFO Server worker running in development on port 4000 with a PID of: 3770
-[Sat, 27 Oct 2012 16:58:40 GMT] DEBUG LOGGING STARTED ============================================
-[Sat, 27 Oct 2012 16:58:40 GMT] DEBUG ============================================================
-[Mon, 29 Oct 2012 12:41:21 GMT] INFO Code changed, killing 3770, cycling ...
-[Mon, 29 Oct 2012 12:41:21 GMT] INFO Creating 1 worker process.
+[Mon, 29 Oct 2012 15:17:22 GMT] INFO Creating 2 worker processes.
+[Mon, 29 Oct 2012 15:17:22 GMT] INFO Server worker running in production on port 5000 with a PID of: 9583
+[Mon, 29 Oct 2012 15:17:22 GMT] INFO Server worker running in production on port 5000 with a PID of: 9582
