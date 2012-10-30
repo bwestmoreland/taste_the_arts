@@ -10,7 +10,7 @@
 # Ignore all logfiles, tempfiles, and modules.
 /log/*.log
 /tmp
-/node_moduless
+/node_modules
 
 # Ignore other unneeded files.
 doc/
