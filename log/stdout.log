@@ -1,4 +1,4 @@
-[Mon, 29 Oct 2012 23:41:27 GMT] INFO Server starting with config: {
+[Wed, 31 Oct 2012 01:37:12 GMT] INFO Server starting with config: {
   "environment": "production",
   "workers": 2,
   "port": "5000",
@@ -28,8 +28,18 @@
   "ssl": null,
   "hostname": null,
   "secret": "iStixUGcO8kwwBr8rGfCZVwH9xveWdJ3K9d6CBmiQ7jIIEj5jWd8oNK9uVIxol8ireRXWOAlksTyg3zuG1Qn3yVK4noS8G3g9u5yJZlXbCv6wowgkNo6n1IgORlTNEmz",
-  "detailedErrors": false
+  "detailedErrors": true,
+  "model": {
+    "defaultAdapter": "postgresdb"
+  },
+  "db": {
+    "postgresdb": {
+      "dbname": "taste_the_arts"
+    }
+  }
 }
-[Mon, 29 Oct 2012 23:41:27 GMT] INFO Creating 2 worker processes.
-[Mon, 29 Oct 2012 23:41:27 GMT] INFO Server worker running in production on port 5000 with a PID of: 12753
-[Mon, 29 Oct 2012 23:41:27 GMT] INFO Server worker running in production on port 5000 with a PID of: 12754
+[Wed, 31 Oct 2012 01:37:12 GMT] INFO Creating 2 worker processes.
+[Wed, 31 Oct 2012 01:37:12 GMT] INFO Model adapter not found for SponsorLevel. Set .adapter for this model, or set model.defaultAdapter.
+[Wed, 31 Oct 2012 01:37:12 GMT] INFO Model adapter not found for SponsorLevel. Set .adapter for this model, or set model.defaultAdapter.
+[Wed, 31 Oct 2012 01:37:12 GMT] INFO Server worker running in production on port 5000 with a PID of: 2611
+[Wed, 31 Oct 2012 01:37:12 GMT] INFO Server worker running in production on port 5000 with a PID of: 2610

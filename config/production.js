@@ -17,10 +17,10 @@
 */
 
 var config = {
-  detailedErrors: false
+  detailedErrors: true
 , hostname: null
 , port: process.env.PORT || 5000
-/* TODO: Define a defaultAdapter. You can use postgresdb, memory, mongo or riak. 
+/* TODO: Define a defaultAdapter. You can use postgresdb, memory, mongo or riak. */
 , model: {
     defaultAdapter: 'postgresdb'
 	}
@@ -29,7 +29,6 @@ var config = {
       dbname: 'taste_the_arts'
     }
   }
- */
 , sessions: {
     store: 'cookie'
   , key: 'sid'

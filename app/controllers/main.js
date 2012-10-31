@@ -23,6 +23,13 @@ var Main = function () {
     , template: 'app/views/main/index'
     });
   };
+
+  this.tickets = function (req, resp, params) {
+  	this.respond(params, {
+  	  format: 'html'
+  	, template: 'app/views/main/tickets'
+  	});
+  };
 };
 
 exports.Main = Main;

@@ -80,15 +80,20 @@ h2 {
 /* info-box */
 
 .info-box {
-  text-align: center;
+  min-height: 350px;
+  text-align:center;
   background-color:rgba(159, 142, 214, .2);
   box-shadow: 0 0 2px #bababa;
-  padding: 2px;
+  padding: 10px;
   margin-bottom: 5px;
   border: 1px solid #EDEDED;
   -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
         border-radius: 6px;
+}
+
+.info-box p{
+  text-align: justify;
 }
 
 /* side link */
@@ -159,6 +164,6 @@ footer {
   background-color: #26194B;
   min-height: 70px;
   color: #9F8ED6;
-  padding-top: 35px;
+  padding-top: 35   px;
   margin-top: 30px;
 }
