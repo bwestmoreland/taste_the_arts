@@ -80,8 +80,8 @@ h2 {
 /* info-box */
 
 .info-box {
-  min-height: 350px;
   text-align:center;
+  background-color:#339F8ED6; 
   background-color:rgba(159, 142, 214, .2);
   box-shadow: 0 0 2px #bababa;
   padding: 10px;
@@ -94,6 +94,12 @@ h2 {
 
 .info-box p{
   text-align: justify;
+}
+
+/* sponsor-box */
+
+.sponsor-row {
+  margin-top: 90px;
 }
 
 /* side link */

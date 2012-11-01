@@ -30,6 +30,14 @@ var Main = function () {
   	, template: 'app/views/main/tickets'
   	});
   };
+
+  this.sponsorships = function (req, resp, params){
+    this.respond(params, {
+      format: 'html'
+    , template: 'app/views/main/sponsorships'
+    });
+  };
+
 };
 
 exports.Main = Main;
