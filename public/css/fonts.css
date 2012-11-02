@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800);
+@import url(http://fonts.googleapis.com/css?family=Philosopher:400italic,400,800);
+@import url(http://fonts.googleapis.com/css?family=Julia+Sans+One:400italic,400,800);
+@import url(http://fonts.googleapis.com/css?family=Alice:400italic,400,800);
+@import url(http://fonts.googleapis.com/css?family=Overlock:400italic,400,800);
+@import url(http://fonts.googleapis.com/css?family=Cagliostro:400italic,400,800);
+@import url(http://fonts.googleapis.com/css?family=Marcellus:400italic,400,800);
+body {
+  font-family: 'Philosopher', Arial, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Marcellus', Arial, serif;
+  font-weight: 800;
+}

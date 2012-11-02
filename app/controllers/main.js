@@ -17,6 +17,23 @@
 */
 
 var Main = function () {
+  
+  this.error = function (req, resp, params) {
+    console.log(params.error);
+    this.respond(params, {
+      format: 'html'
+    , template: 'app/views/main/error'
+    });
+  };
+
+  this.notfound = function (req, resp, params) {
+    console.log(params.error);
+    this.respond(params, {
+      format: 'html'
+    , template: 'app/views/main/404'
+    });
+  };
+
   this.index = function (req, resp, params) {
     this.respond(params, {
       format: 'html'
