@@ -27,7 +27,7 @@ var Main = function () {
   };
 
   this.notfound = function (req, resp, params) {
-    console.log(params.error);
+    params.error = 404;
     this.respond(params, {
       format: 'html'
     , template: 'app/views/main/404'
@@ -52,6 +52,27 @@ var Main = function () {
     this.respond(params, {
       format: 'html'
     , template: 'app/views/main/sponsorships'
+    });
+  };
+
+  this.contact = function (req, resp, params){
+    this.respond(params, {
+      format: 'html'
+    , template: 'app/views/main/contact'
+    });
+  };
+
+  this.news = function (req, resp, params){
+    this.respond(params, {
+      format: 'html'
+    , template: 'app/views/main/news'
+    });
+  };
+
+  this.gallery = function (req, resp, params){
+    this.respond(params, {
+      format: 'html'
+    , template: 'app/views/main/gallery'
     });
   };
 

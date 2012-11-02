@@ -1377,3 +1377,65 @@ figure {
     background-image: url(../images/patterns/subtle_stripes_@2X.png);
   }
 }
+
+/* side link */
+
+a#event {
+  width: 85px;
+  z-index: 10000;
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 140px;
+  height: 70px;
+  color: #9F8ED6;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 70px;
+  text-indent: -180px;
+  background: #26194B url(../img/visit-arrow-right.png) no-repeat 235px center;
+  overflow: hidden;
+  border-top: 1px solid #9F8ED6;
+  border-left: 1px solid #9F8ED6;
+  border-bottom: 1px solid #9F8ED6;
+  -moz-border-radius-topleft: 50px;
+  -webkit-border-top-left-radius: 50px;
+  -o-border-top-left-radius: 50px;
+  -ms-border-top-left-radius: 50px;
+  -khtml-border-top-left-radius: 50px;
+  border-top-left-radius: 50px;
+  -moz-border-radius-bottomleft: 50px;
+  -webkit-border-bottom-left-radius: 50px;
+  -o-border-bottom-left-radius: 50px;
+  -ms-border-bottom-left-radius: 50px;
+  -khtml-border-bottom-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  -moz-transition: all;
+  -webkit-transition: all;
+  -o-transition: all;
+  -ms-transition: all;
+  transition: all;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+a#event img {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  z-index: 1;
+}
+
+a#event:hover,
+a#event:active {
+  right: 0;
+  width: 180px;
+  padding-left: 82px;
+  padding-right: 10px;
+  text-indent: 0;
+}

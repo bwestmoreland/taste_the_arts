@@ -22,6 +22,9 @@ var router = new geddy.RegExpRouter();
 router.get('/').to('Main.index');
 router.get('/tickets').to('Main.tickets');
 router.get('/sponsorships').to('Main.sponsorships');
+router.get('/contact').to('Main.contact');
+router.get('/news').to('Main.news');
+router.get('/gallery').to('Main.gallery');
 
 // Basic routes
 // router.match('/moving/pictures/:id', 'GET').to('Moving.pictures');
@@ -41,5 +44,4 @@ router.get('/sponsorships').to('Main.sponsorships');
 //   this.get('/print(.:format)').to('Hemispheres.print');
 // });
 
-router.resource('sponsor_levels');
 exports.router = router;
