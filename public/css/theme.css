@@ -113,7 +113,7 @@ figure {
   margin-bottom: 0;
 }
 #masthead .brand a {
-  color: #555555;
+  color: #1F0A39;
 }
 #masthead .brand i {
   line-height: 20px;
@@ -349,7 +349,7 @@ figure {
   /*background: white;
   background: rgba(255, 255, 255, 0.8);*/
   background-color:#339F8ED6; 
-  background-color:rgba(159, 142, 214, .2);
+  background-color:rgba(159, 142, 214, .4);
   border: 1px solid white;
   -webkit-box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.2);
   -moz-box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.2);
@@ -511,7 +511,7 @@ figure {
   font-size: 30px;
   margin: -10px -20px 0 -20px;
   padding: 8px 0 10px;
-  background-color: #f3f3f3;
+  background-color: #1F0A39;
   -webkit-box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.2) inset;
   -moz-box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.2) inset;
   box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.2) inset;
@@ -1110,12 +1110,12 @@ figure {
   color: #555555;
 }
 .theme-color-purple .pricing-table-price {
-  color: #e8481d;
+  color: #9F8ED6;
 }
 .theme-color-purple .pricing-table-featured {
   background: #e8481d;
   border-color: #a73111;
-  text-shadow: 0px 1px 0px #bf3813;
+  text-shadow: 0px 1px 0px #5E48AB;
 }
 .theme-color-purple .pricing-table-featured .pricing-table-price {
   color: #e8481d;

@@ -1,4 +1,4 @@
-[Fri, 02 Nov 2012 20:56:12 GMT] INFO Server starting with config: {
+[Fri, 02 Nov 2012 22:54:10 GMT] INFO Server starting with config: {
   "environment": "production",
   "workers": 2,
   "port": "5000",
@@ -39,8 +39,8 @@
     }
   }
 }
-[Fri, 02 Nov 2012 20:56:12 GMT] INFO Creating 2 worker processes.
-[Fri, 02 Nov 2012 20:56:12 GMT] INFO Model adapter not found for SponsorLevel. Set .adapter for this model, or set model.defaultAdapter.
-[Fri, 02 Nov 2012 20:56:12 GMT] INFO Model adapter not found for SponsorLevel. Set .adapter for this model, or set model.defaultAdapter.
-[Fri, 02 Nov 2012 20:56:12 GMT] INFO Server worker running in production on port 5000 with a PID of: 2522
-[Fri, 02 Nov 2012 20:56:12 GMT] INFO Server worker running in production on port 5000 with a PID of: 2523
+[Fri, 02 Nov 2012 22:54:10 GMT] INFO Creating 2 worker processes.
+[Fri, 02 Nov 2012 22:54:10 GMT] INFO Model adapter not found for SponsorLevel. Set .adapter for this model, or set model.defaultAdapter.
+[Fri, 02 Nov 2012 22:54:10 GMT] INFO Model adapter not found for SponsorLevel. Set .adapter for this model, or set model.defaultAdapter.
+[Fri, 02 Nov 2012 22:54:10 GMT] INFO Server worker running in production on port 5000 with a PID of: 3156
+[Fri, 02 Nov 2012 22:54:11 GMT] INFO Server worker running in production on port 5000 with a PID of: 3157
