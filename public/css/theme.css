@@ -12,6 +12,7 @@
 body {
   padding-top: 80px;
   background-position: 0 100px;
+  color: #1F0A39;
 }
 
 /* Header */
@@ -105,7 +106,7 @@ figure {
 /* HEADER SECTION */
 /* -------------- */
 #masthead .brand {
-  font-weight: 800;
+  font-weight: 400;
   font-size: 30px;
   line-height: 30px;
   padding: 23px 20px 27px;
@@ -143,7 +144,7 @@ figure {
 .navbar .nav > li > a {
   text-shadow: none;
   text-transform: uppercase;
-  font-weight: bold;
+  /*font-weight: bold; */
   padding: 29px 10px 31px;
   line-height: 19px;
 }
@@ -349,7 +350,7 @@ figure {
   /*background: white;
   background: rgba(255, 255, 255, 0.8);*/
   background-color:#339F8ED6; 
-  background-color:rgba(159, 142, 214, .4);
+  background-color:rgba(159, 142, 214, .6);
   border: 1px solid white;
   -webkit-box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.2);
   -moz-box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.2);
@@ -788,6 +789,16 @@ figure {
   background-size: 256px 256px;
 }
 
+.theme-pattern-purple-marble {
+  background-image: url(../img/patterns/whitey.png);
+  background-size: 256px 256px;
+}
+
+.theme-pattern-purple-marble .section.alt {
+  background-image: url(../img/patterns/purple-marble.png);
+  background-size: 512px 512px;
+}
+
 .theme-pattern-bedge-grunge .section.alt {
   background-image: url(../img/patterns/bedge_grunge.png);
   background-size: 588px  375px;
@@ -1089,6 +1100,7 @@ figure {
 .theme-color-purple .navbar .nav > .active > a, .theme-color-purple .navbar .nav > .active > a:hover, .theme-color-purple .navbar .nav > .active > a:focus,
 .theme-color-purple .navbar .nav > li > a:focus, .theme-color-purple .navbar .nav > li > a:hover {
   color: #1F0A39;
+  background-color: 0;
 }
 .theme-color-purple .dropdown-menu a {
   color: #26194B;
