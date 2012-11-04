@@ -95,12 +95,14 @@ figure {
   margin: 0;
   position: relative;
 }
-.section.alt {
+.section .alt {
   background-repeat: repeat;
+  /*
   -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
   -moz-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
   box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
   text-shadow: 1px 1px 1px white;
+  */
 }
 
 /* HEADER SECTION */
@@ -235,6 +237,7 @@ figure {
 .hero-unit {
   margin-bottom: 0;
 }
+
 .alt .hero-unit {
   padding-left: 0;
   padding-right: 0;
@@ -790,13 +793,15 @@ figure {
 }
 
 .theme-pattern-purple-marble {
+  
   background-image: url(../img/patterns/whitey.png);
   background-size: 256px 256px;
+  
 }
 
 .theme-pattern-purple-marble .section.alt {
-  background-image: url(../img/patterns/purple-marble.png);
-  background-size: 512px 512px;
+  background-image: url(../img/patterns/purple-background.jpg);
+  background-size: 2400px 755px;
 }
 
 .theme-pattern-bedge-grunge .section.alt {
@@ -1100,7 +1105,6 @@ figure {
 .theme-color-purple .navbar .nav > .active > a, .theme-color-purple .navbar .nav > .active > a:hover, .theme-color-purple .navbar .nav > .active > a:focus,
 .theme-color-purple .navbar .nav > li > a:focus, .theme-color-purple .navbar .nav > li > a:hover {
   color: #1F0A39;
-  background-color: 0;
 }
 .theme-color-purple .dropdown-menu a {
   color: #26194B;
