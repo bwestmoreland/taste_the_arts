@@ -35,42 +35,78 @@ var Main = function () {
   };
 
   this.index = function (req, resp, params) {
-    this.respond(params, {
+    var self = this;
+    var params = {
+      title: 'Home'
+    };
+
+    self.respond(params, {
       format: 'html'
     , template: 'app/views/main/index'
     });
   };
 
   this.tickets = function (req, resp, params) {
-  	this.respond(params, {
+  	var self = this;
+    var params = {
+      title: 'Tickets'
+    };
+    self.respond(params, {
   	  format: 'html'
   	, template: 'app/views/main/tickets'
   	});
   };
 
   this.sponsorships = function (req, resp, params){
-    this.respond(params, {
+    var self = this;
+    var params = {
+      title: 'Sponsorships'
+    };
+    self.respond(params, {
       format: 'html'
     , template: 'app/views/main/sponsorships'
     });
   };
 
   this.contact = function (req, resp, params){
-    this.respond(params, {
+    var self = this;
+    var params = {
+      title: 'Contact'
+    };
+    self.respond(params, {
       format: 'html'
     , template: 'app/views/main/contact'
     });
   };
 
+  this.about = function (req, resp, params){
+    var self = this;
+    var params = {
+      title: 'About'
+    };
+    self.respond(params, {
+      format: 'html'
+    , template: 'app/views/main/about'
+    });
+  };
+
   this.news = function (req, resp, params){
-    this.respond(params, {
+    var self = this;
+    var params = {
+      title: 'Media'
+    };
+    self.respond(params, {
       format: 'html'
     , template: 'app/views/main/news'
     });
   };
 
   this.gallery = function (req, resp, params){
-    this.respond(params, {
+    var self = this;
+    var params = {
+      title: 'Gallery'
+    };
+    self.respond(params, {
       format: 'html'
     , template: 'app/views/main/gallery'
     });

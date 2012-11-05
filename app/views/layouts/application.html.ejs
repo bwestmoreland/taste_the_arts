@@ -23,7 +23,7 @@
     <%- styleLink('/css/fonts.css', {rel:'stylesheet'}) %>
   <body class='theme-color-purple theme-pattern-purple-marble'>
     <!-- Page Header -->
-  <!--  <header id='masthead'>
+  <header id='masthead'>
       <nav class='navbar navbar-fixed-top'>
         <div class='navbar-inner'>
           <div class='container'>
@@ -33,16 +33,20 @@
               <span class='icon-bar'></span>
             </a>
             <h1 class='brand'>
-              <a href='/'>
-                A Taste of the Fine Arts
-              </a>
+              <% if (title === 'Home') { %>
+                  <!-- Do Nothing -->
+              <% } else { %>
+                <a href='/'>
+                  A Taste of the Fine Arts
+                </a>
+              <% } %>
             </h1>
             <div class='nav-collapse'>
               <ul class='nav pull-right'>
                 <li class='active'><a href="/">Home</a></li>
-                <li class=''><a href="/news">News</a></li>
+                <li class=''><a href="/news">Media</a></li>
                 <li class=''><a href="/sponsorships">Sponsorships</a></li>
-                <li class='dropdown'>
+                <!--<li class='dropdown'>
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio</a>
                   <ul class='dropdown-menu'>
                     <li>
@@ -58,14 +62,15 @@
                       <a href="/gallery">Single Item</a>
                     </li>
                   </ul>
-                </li>
+                </li>-->
+                <li class=''><a href="/about">About</a></li>
                 <li class=''><a href="/contact">Contact</a></li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
-    </header>-->
+    </header>
     <%- yield(); %>
     <!-- Page Footer -->
     <footer class='section' id='footer' role='contentinfo'>

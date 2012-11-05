@@ -25,6 +25,7 @@ router.get('/sponsorships').to('Main.sponsorships');
 router.get('/contact').to('Main.contact');
 router.get('/news').to('Main.news');
 router.get('/gallery').to('Main.gallery');
+router.get('/about').to('Main.about');
 
 // Basic routes
 // router.match('/moving/pictures/:id', 'GET').to('Moving.pictures');

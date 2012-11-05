@@ -97,12 +97,10 @@ figure {
 }
 .section .alt {
   background-repeat: repeat;
-  /*
   -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
   -moz-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
   box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25) inset;
-  text-shadow: 1px 1px 1px white;
-  */
+  /*text-shadow: 1px 1px 1px white;*/
 }
 
 /* HEADER SECTION */
@@ -135,8 +133,10 @@ figure {
 }
 
 .navbar-inner {
-  background: white;
-  background: rgba(255, 255, 255, 0.95);
+  /*background: white;
+  background: rgba(255, 255, 255, 0.95); */
+  min-height: 45px;
+  background-image: url(../img/patterns/whitey.png);
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -236,6 +236,7 @@ figure {
 /* hero unit */
 .hero-unit {
   margin-bottom: 0;
+  text-shadow: 1px 1px 1px white;
 }
 
 .alt .hero-unit {
@@ -361,13 +362,15 @@ figure {
 }
 .well h3 {
   text-align: center;
-  border-bottom: 1px solid white;
+  /*border-bottom: 1px solid white;*/
   -webkit-box-shadow: 0px 1px 0px #eeeeee;
   -moz-box-shadow: 0px 1px 0px #eeeeee;
   box-shadow: 0px 1px 0px #eeeeee;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
+
+
 
 /* page header */
 .page-header {
@@ -520,7 +523,7 @@ figure {
   -moz-box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.2) inset;
   box-shadow: 0px 0px 10px rgba(153, 153, 153, 0.2) inset;
   color: #41b7d8;
-  text-shadow: 1px 1px 0 white;
+  /* text-shadow: 1px 1px 0 white; */
 }
 .pricing-table-price span {
   font-weight: normal;
@@ -529,13 +532,13 @@ figure {
 .pricing-table-list {
   list-style-type: none;
   margin: 0 0 20px;
-  border-bottom: 1px solid white;
+  /*border-bottom: 1px solid white; 
   -webkit-box-shadow: 0px 1px 0px #eeeeee;
   -moz-box-shadow: 0px 1px 0px #eeeeee;
-  box-shadow: 0px 1px 0px #eeeeee;
+  box-shadow: 0px 1px 0px #eeeeee; */
 }
 .pricing-table-list li {
-  border-top: 1px solid white;
+  /* border-top: 1px solid white; */
   -webkit-box-shadow: 0px -1px 0px #eeeeee;
   -moz-box-shadow: 0px -1px 0px #eeeeee;
   box-shadow: 0px -1px 0px #eeeeee;
