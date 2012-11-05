@@ -21,6 +21,8 @@
     <%- styleLink('/css/font-awesome.css', {rel:'stylesheet'}) %>
     <%- styleLink('/css/theme.css', {rel:'stylesheet'}) %>
     <%- styleLink('/css/fonts.css', {rel:'stylesheet'}) %>
+    <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+    <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/facpartners.json?callback=twitterCallback2&count=3"></script>
   <body class='theme-color-purple theme-pattern-purple-marble'>
     <!-- Page Header -->
   <header id='masthead'>
@@ -86,34 +88,16 @@
               </li>
             </ul>
           </div>
-          <div class='span4'>
-            <h3>The Buzz</h3>
-            <ul class='icons'>
-              <li>
-                <p><i class='icon-twitter'></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  <small>
-                    by
-                    <a href='#'>oxygenna.com</a>
-                  </small>
-                </p>
-              </li>
-              <li>
-                <p><i class='icon-twitter'></i>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                  <small>
-                    by
-                    <a href='#'>oxygenna.com</a>
-                  </small>
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div class='span4'>
+          <div class='span8'>
             <h3>Latest Media</h3>
             <ul class='unstyled'>
               <li>
                 <h4>
                   <a href='/news'>Our Website is Live!</a>
                 </h4>
+                <p>
+                  Thanks to the tireless work of our wonderful volunteers, we welcome you to our new website. As plans for the event heat up, check back often for all the buzz on what to expect at A Taste of the Fine Arts.
+                </p>
                 <p>
                   <small>November 12, 2012</small>
                 </p>
@@ -128,6 +112,7 @@
   <%- scriptLink('/js/jquery.min.js', {type:'text/javascript'}) %>
   <%- scriptLink('/js/bootstrap.js', {type:'text/javascript'}) %>
   <%- scriptLink('/js/script.js', {type:'text/javascript'}) %>
+
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID. mathiasbynens.be/notes/async-analytics-snippet -->
   <script type='text/javascript'>
     //<![CDATA[
