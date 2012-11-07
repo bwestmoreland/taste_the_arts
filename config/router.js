@@ -45,4 +45,5 @@ router.get('/about').to('Main.about');
 //   this.get('/print(.:format)').to('Hemispheres.print');
 // });
 
+router.resource('users');
 exports.router = router;
