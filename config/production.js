@@ -19,7 +19,7 @@
 var config = {
   detailedErrors: true
 , debug: true
-, hostname: http://secure-fjord-7681.herokuapp.com
+, hostname: 0.0.0.0
 , port: process.env.PORT || 5000
 , model: {
     defaultAdapter: 'memory'
