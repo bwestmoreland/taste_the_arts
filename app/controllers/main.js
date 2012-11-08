@@ -104,6 +104,30 @@ var Main = function () {
     });
   };
 
+  this.success = function (req, resp, params) {
+    var self = this;
+    var params = {
+      title: 'Success'
+    };
+
+    self.respond(params, {
+      format: 'html'
+    , template: 'app/views/main/success'
+    });
+  };
+
+  this.cancel = function (req, resp, params) {
+    var self = this;
+    var params = {
+      title: 'Payment Canceled'
+    };
+
+    self.respond(params, {
+      format: 'html'
+    , template: 'app/views/main/cancel'
+    });
+  };
+
 };
 
 exports.Main = Main;

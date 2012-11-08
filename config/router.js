@@ -26,6 +26,8 @@ router.get('/contact').to('Main.contact');
 router.get('/news').to('Main.news');
 router.get('/gallery').to('Main.gallery');
 router.get('/about').to('Main.about');
+router.get('/success').to('Main.success');
+router.get('/cancel').to('Main.cancel');
 
 // Basic routes
 // router.match('/moving/pictures/:id', 'GET').to('Moving.pictures');

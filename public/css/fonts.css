@@ -11,3 +11,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Marcellus', Arial, serif;
   font-weight: 400;
 }
+
+button {
+  font-family: 'Philosopher', Arial, serif;
+  color: #9F8ED6;
+}
