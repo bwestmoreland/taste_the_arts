@@ -249,6 +249,10 @@ figure {
   font-size: 20em;
 }
 
+.hero-big h1 {
+  font-size: 10em;
+}
+
 .remove-padding-and-margin {
   padding-top: 0;
   padding-bottom:0;
