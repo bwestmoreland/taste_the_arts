@@ -1161,7 +1161,7 @@ figure {
 /* side link */
 
 a#event {
-  width: 85px;
+  width: 175px;
   z-index: 10000;
   display: block;
   position: fixed;
@@ -1174,7 +1174,7 @@ a#event {
   text-decoration: none;
   font-style: normal;
   line-height: 70px;
-  text-indent: -180px;
+  text-indent: 70px;
   background: #26194B url(../img/visit-arrow-right.png) no-repeat 235px center;
   overflow: hidden;
   border-top: 1px solid #9F8ED6;
