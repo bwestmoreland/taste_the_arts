@@ -18,13 +18,6 @@
 
 var Main = function () {
 
-  this.notfound = function (req, resp, params) {
-    params.error = 404;
-    this.respond(params, {
-      format: 'html'
-    , template: 'app/views/main/404'
-    });
-  };
 
   this.index = function (req, resp, params) {
     var self = this;
