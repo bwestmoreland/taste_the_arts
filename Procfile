@@ -1,1 +1,1 @@
-web: geddy -e production
+web: node app.js

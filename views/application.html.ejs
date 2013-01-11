@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <!-- %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"} -->
+    <title></title>
+    <meta content='A Taste of the Fine Arts' name='description' />
+    <meta content='width=device-width' name='viewport' />
+    <!--[if lt IE 9]>
+      <script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script>
+    <![endif]-->
+    <link href='favicon.ico' rel='shortcut icon' />
+<link href='images/apple-touch-icon-144-precomposed.png' rel='apple-touch-icon-precomposed' sizes='144x144' />
+<link href='images/apple-touch-icon-114-precomposed.png' rel='apple-touch-icon-precomposed' sizes='114x114' />
+<link href='images/apple-touch-icon-72-precomposed.png' rel='apple-touch-icon-precomposed' sizes='72x72' />
+<link href='images/apple-touch-icon-57-precomposed.png' rel='apple-touch-icon-precomposed' />
+    <%- styleLink('/css/bootstrap.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/responsive.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/font-awesome.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/theme.css', {rel:'stylesheet'}) %>
+    <%- styleLink('/css/fonts.css', {rel:'stylesheet'}) %>
+  <body class='theme-color-purple theme-pattern-purple-marble'>
+    <!-- Page Header -->
+  <header id='masthead'>
+      <nav class='navbar navbar-fixed-top'>
+        <div class='navbar-inner'>
+          <div class='container'>
+            <a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </a>
+            <h1 class='brand'>
+              <% if (title === 'Home') { %>
+                  <!-- Do Nothing -->
+              <% } else { %>
+                <a href='/'>
+                  A Taste of the Fine Arts
+                </a>
+              <% } %>
+            </h1>
+            <div class='nav-collapse'>
+              <ul class='nav pull-right'>
+                <li class='active'><a href="/">Home</a></li>
+                <li class=''><a href="/news">News</a></li>
+                <li class=''><a href="/sponsorships">Sponsorships</a></li>
+                <li class=''><a href="/about">About</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <%- yield(); %>
+    <!-- Page Footer -->
+    <footer class='section' id='footer' role='contentinfo'>
+      <div class='container'>
+        <div class='row-fluid'>
+          <div class='span4'>
+            <h3>Contact us</h3>
+            <p>
+              We'd love to hear from you.
+            </p>
+            <address>
+              Fine Arts Center Partners<br/>  
+              102 Pine Knoll Drive<br/>
+              Greenville, SC 29609<br/>
+            </address>
+            <ul class='icons'>
+              <li>
+                <i class='icon-phone'></i>
+                <a href="tel:1-864-214-5278">1-864-214-5278</a>
+              <li>
+                <i class='icon-envelope'></i>
+                <a href='mailto:facpartners@gmail.com'>FAC Partners</a>
+              </li>
+              <li>
+                <i class='icon-twitter'></i>
+                <a href='https://twitter.com/facpartners' target='_blank'>@FACpARTners</a>
+              </li>
+              <li>
+                <i class='icon-facebook'></i>
+                <a href='https://www.facebook.com/FACPartners' target='_blank'>FACpARTners</a>
+              </li>
+            </ul>
+          </div>
+          <div class='span8'>
+            <h3>Latest News</h3>
+            <ul class='unstyled'>
+               <li>
+                <h4>
+                  <a href='/news'>What to Expect When You're Expecting to Attend</a>
+                </h4>
+                <p>
+                  <small>January 9, 2013</small>
+                </p>
+                <p>Those of you who have been to A Taste of the Fine Arts in the past and those of you who plan to attend for the first time may be wondering what to expect this year<a href="/news">... Read More</a></p>
+              </li>
+               <li>
+                <h4>
+                  <a href='/news'>So MINI Reasons to Attend</a>
+                </h4>
+                <p>
+                  <small>January 8, 2013</small>
+                </p>
+                <p>
+                  If you loved The Italian Job (Caine or Wahlberg, take your pick) and always thought those MINIs looked like a great way to pull of a grand heist
+                  <a href="/news">... Read More</a>
+                </p>
+              </li>
+              <li>
+                <h4>
+                  <a href='/news'>Auction Previews Start Tomorrow</a>
+                </h4>
+                <p>
+                  <small>January 7, 2013</small>
+                </p>
+                <p>Wanna know what we've got for your bidding pleasure this year?<a href="/news">... Read More</a></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <%- scriptLink('/js/jquery.min.js', {type:'text/javascript'}) %>
+  <%- scriptLink('/js/bootstrap.js', {type:'text/javascript'}) %>
+  <%- scriptLink('/js/script.js', {type:'text/javascript'}) %>
+  <script type='text/javascript'>
+    //<![CDATA[
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36308455-1']);
+      _gaq.push(['_setDomainName', 'tastethearts.org']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    //]]>
+  </script>
+</html>
