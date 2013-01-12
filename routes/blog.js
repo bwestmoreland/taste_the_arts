@@ -3,5 +3,5 @@
  */
 
 exports.news = function(req, res) {
-	res.render('main/news', {title: 'News'});
+	res.render('news', {title: 'News'});
 };

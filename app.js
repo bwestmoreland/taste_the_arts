@@ -29,7 +29,6 @@ app.configure('development', function(){
 
 app.get('/', routes.index);
 app.get('/sponsorships', routes.sponsorships);
-app.get('/contact', routes.contact);
 app.get('/news', blog.news);
 app.get('/about', routes.about);
 app.get('/success', routes.success);
