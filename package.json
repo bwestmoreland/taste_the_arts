@@ -1,9 +1,8 @@
 {
   "name": "taste-the-arts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "geddy": "0.5.x",
     "express": "3.x",
     "ejs": "latest"
   },
