@@ -1,6 +1,6 @@
  /*
- 	* GET static pages
- 	*/
+  * GET static pages
+  */
 
 exports.index = function(req, res) {
 	res.render('index', { title: 'Home'});
