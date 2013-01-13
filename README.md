@@ -1,4 +1,4 @@
-taste_the_arts
+Taste the Arts
 ==============
 
 Repo for the Taste of the Fine Arts website, freshly migrated from geddy to express

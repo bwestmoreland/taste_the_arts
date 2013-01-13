@@ -1,0 +1,1 @@
+{"ts":1358030789716,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"{\n  \"name\": \"taste-the-arts\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"geddy\": \"0.5.x\"\n  },\n  \"engines\": {\n    \"node\": \"0.8.x\",\n    \"npm\": \"1.1.x\"\n  }\n}\n"]],"start1":0,"start2":0,"length1":0,"length2":178}]],"length":178}
