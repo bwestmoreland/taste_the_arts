@@ -11,6 +11,7 @@
 /log/*.log
 /tmp
 /node_modules
+.c9revisions/
 
 # Ignore other unneeded files.
 doc/
