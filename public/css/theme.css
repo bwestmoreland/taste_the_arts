@@ -667,14 +667,26 @@ figure {
 
 /* BLOG PAGES */
 /* ---------- */
+
 .blog-post {
-  padding-bottom: 24px;
+  padding-bottom: 24px; 
 }
 
 .blog-header {
+  position:relative;
+   border-top:100px solid transparent;
+   margin:-60px 0 0;
+   -webkit-background-clip:padding-box;
+   -moz-background-clip:padding;
+   background-clip:padding-box;
   padding-bottom: 23px;
-  /* margin: 24px 0; */
-  /*border-bottom: 1px solid #eeeeee;*/
+}
+
+.blog-header:before{
+   content:"";
+   position:absolute;
+   left:0;
+   right:0;
 }
 .blog-header h2 {
   line-height: 1;
