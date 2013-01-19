@@ -33,6 +33,11 @@ app.get('/news', blog.news);
 app.get('/about', routes.about);
 app.get('/success', routes.success);
 
+app.get('/post/:post_id', post.show);
+app.post('/post', post.create);
+app.get('/posts', post.list);
+app.get('/post/:post_id/edit', post.edit);
+app.put('/post/:post_id', post.update);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
