@@ -34,6 +34,8 @@ app.get('/news', blog.news);
 app.get('/about', routes.about);
 app.get('/success', routes.success);
 
+
+
 app.post('/post', post.create);
 app.get('/post/:post_id', post.show);
 app.get('/posts', post.list);
