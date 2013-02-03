@@ -27,11 +27,13 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-app.get('/', routes.index);
+//app.get('/', routes.index);
+app.get('/', routes.thankyou);
 app.get('/sponsorships', routes.sponsorships);
 app.get('/news', blog.news);
 app.get('/about', routes.about);
 app.get('/success', routes.success);
+
 
 
 http.createServer(app).listen(app.get('port'), function(){

@@ -237,6 +237,7 @@ figure {
 .hero-unit {
   margin-bottom: 0;
   text-shadow: 1px 1px 1px white;
+  background: none;
 }
 
 .alt .hero-unit {
@@ -251,6 +252,10 @@ figure {
 
 .hero-big h1 {
   font-size: 10em;
+}
+
+.hero-big h2 {
+  font-size: 7em;
 }
 
 .remove-padding-and-margin {

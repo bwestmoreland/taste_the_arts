@@ -21,3 +21,7 @@ exports.about = function(req, res) {
 exports.success = function(req, res) {
 	res.render('success', { title: 'Success'});
 };
+
+exports.thankyou = function(req, res) {
+	res.render('thankyou', { title: 'Thank You'});
+};
